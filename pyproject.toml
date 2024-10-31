@@ -1,0 +1,15 @@
+build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = []
+keywords = ["federated learning", "machine learning", "privacy"]
+
+[project.urls]
+Homepage = "https://github.com/kerembay9/federatedml"  # Replace with your GitHub repo URL
+Documentation = "https://github.com/kerembay9/federatedml#readme"  # Optional, link to docs
+Bug Tracker = "https://github.com/kerembay9/federatedml/issues"  # Optional, link to issue tracker
