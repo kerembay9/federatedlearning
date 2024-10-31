@@ -1,0 +1,7 @@
+README.md
+setup.py
+federatedlearning/__init__.py
+federatedlearning.egg-info/PKG-INFO
+federatedlearning.egg-info/SOURCES.txt
+federatedlearning.egg-info/dependency_links.txt
+federatedlearning.egg-info/top_level.txt

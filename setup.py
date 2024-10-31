@@ -10,8 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
-        # List dependencies here, for example:
-        'requests',
+
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
