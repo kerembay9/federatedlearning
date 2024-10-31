@@ -1,4 +1,4 @@
-build-system]
+[build-system]
 requires = [
     "setuptools>=61.0",
     "wheel"
@@ -6,10 +6,23 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-dependencies = []
+name = "federatedml"
+version = "0.0.2"
+authors = [
+  { name = "Kerem Bayramoğlu", email = "kerembay9@gmail.com" }
+]
+description = "federated learning package"
+readme = "README.md"
+dependencies = [
+]
 keywords = ["federated learning", "machine learning", "privacy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
 
 [project.urls]
-Homepage = "https://github.com/kerembay9/federatedml"  # Replace with your GitHub repo URL
-Documentation = "https://github.com/kerembay9/federatedml#readme"  # Optional, link to docs
-Bug Tracker = "https://github.com/kerembay9/federatedml/issues"  # Optional, link to issue tracker
+Homepage = "https://github.com/yourusername/my_package"
+Documentation = "https://github.com/yourusername/my_package#readme"
+Issues = "https://github.com/yourusername/my_package/issues"
